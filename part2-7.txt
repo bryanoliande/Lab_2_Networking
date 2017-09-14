@@ -1,0 +1,15 @@
+      1 0.000000000    CadmusCo_d2:fe:d0     Broadcast             ARP      60     Who has 10.0.1.12?  Tell 10.0.1.11
+      2 0.001950000    CadmusCo_a9:00:08     CadmusCo_d2:fe:d0     ARP      60     10.0.1.12 is at 08:00:27:a9:00:08
+      3 0.001950000    10.0.1.11             10.0.1.12             ICMP     98     Echo (ping) request  id=0x03c2, seq=1/256, ttl=64 (reply in 4)
+      4 0.001950000    10.0.1.12             10.0.1.11             ICMP     98     Echo (ping) reply    id=0x03c2, seq=1/256, ttl=64 (request in 3)
+      5 1.002821000    10.0.1.11             10.0.1.12             ICMP     98     Echo (ping) request  id=0x03c2, seq=2/512, ttl=64 (reply in 6)
+      6 1.003787000    10.0.1.12             10.0.1.11             ICMP     98     Echo (ping) reply    id=0x03c2, seq=2/512, ttl=64 (request in 5)
+      7 5.007532000    CadmusCo_a9:00:08     CadmusCo_d2:fe:d0     ARP      60     Who has 10.0.1.11?  Tell 10.0.1.12
+      8 5.008464000    CadmusCo_d2:fe:d0     CadmusCo_a9:00:08     ARP      60     10.0.1.11 is at 08:00:27:d2:fe:d0
+
+
+NOTE: 
+08:00:27:d2:fe:d0 PC1
+08:00:27:a9:00:08 PC2
+08:00:27:a4:1a:79 PC3
+08:00:27:dc:29:f0 PC4

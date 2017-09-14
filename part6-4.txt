@@ -1,0 +1,115 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    CadmusCo_a4:1a:79     Broadcast             ARP      60     Who has 10.0.1.11?  Tell 10.0.1.13
+
+Frame 1: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000935000    CadmusCo_d2:fe:d0     CadmusCo_a4:1a:79     ARP      60     10.0.1.11 is at 08:00:27:d2:fe:d0
+
+Frame 2: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: CadmusCo_d2:fe:d0 (08:00:27:d2:fe:d0), Dst: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.000935000    CadmusCo_dc:29:f0     CadmusCo_a4:1a:79     ARP      60     10.0.1.11 is at 08:00:27:dc:29:f0
+
+Frame 3: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: CadmusCo_dc:29:f0 (08:00:27:dc:29:f0), Dst: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79)
+[Duplicate IP address detected for 10.0.1.11 (08:00:27:dc:29:f0) - also in use by 08:00:27:d2:fe:d0 (frame 2)]
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.000935000    10.0.1.13             10.0.1.11             ICMP     98     Echo (ping) request  id=0x03bf, seq=1/256, ttl=64 (reply in 5)
+
+Frame 4: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79), Dst: CadmusCo_d2:fe:d0 (08:00:27:d2:fe:d0)
+Internet Protocol Version 4, Src: 10.0.1.13 (10.0.1.13), Dst: 10.0.1.11 (10.0.1.11)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.001970000    10.0.1.11             10.0.1.13             ICMP     98     Echo (ping) reply    id=0x03bf, seq=1/256, ttl=64 (request in 4)
+
+Frame 5: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: CadmusCo_d2:fe:d0 (08:00:27:d2:fe:d0), Dst: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79)
+Internet Protocol Version 4, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.1.13 (10.0.1.13)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 1.002403000    10.0.1.13             10.0.1.11             ICMP     98     Echo (ping) request  id=0x03bf, seq=2/512, ttl=64 (reply in 7)
+
+Frame 6: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79), Dst: CadmusCo_d2:fe:d0 (08:00:27:d2:fe:d0)
+Internet Protocol Version 4, Src: 10.0.1.13 (10.0.1.13), Dst: 10.0.1.11 (10.0.1.11)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 1.004336000    10.0.1.11             10.0.1.13             ICMP     98     Echo (ping) reply    id=0x03bf, seq=2/512, ttl=64 (request in 6)
+
+Frame 7: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: CadmusCo_d2:fe:d0 (08:00:27:d2:fe:d0), Dst: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79)
+Internet Protocol Version 4, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.1.13 (10.0.1.13)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 2.004893000    10.0.1.13             10.0.1.11             ICMP     98     Echo (ping) request  id=0x03bf, seq=3/768, ttl=64 (reply in 9)
+
+Frame 8: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79), Dst: CadmusCo_d2:fe:d0 (08:00:27:d2:fe:d0)
+Internet Protocol Version 4, Src: 10.0.1.13 (10.0.1.13), Dst: 10.0.1.11 (10.0.1.11)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 2.005818000    10.0.1.11             10.0.1.13             ICMP     98     Echo (ping) reply    id=0x03bf, seq=3/768, ttl=64 (request in 8)
+
+Frame 9: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: CadmusCo_d2:fe:d0 (08:00:27:d2:fe:d0), Dst: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79)
+Internet Protocol Version 4, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.1.13 (10.0.1.13)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 3.006658000    10.0.1.13             10.0.1.11             ICMP     98     Echo (ping) request  id=0x03bf, seq=4/1024, ttl=64 (reply in 11)
+
+Frame 10: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79), Dst: CadmusCo_d2:fe:d0 (08:00:27:d2:fe:d0)
+Internet Protocol Version 4, Src: 10.0.1.13 (10.0.1.13), Dst: 10.0.1.11 (10.0.1.11)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 3.007584000    10.0.1.11             10.0.1.13             ICMP     98     Echo (ping) reply    id=0x03bf, seq=4/1024, ttl=64 (request in 10)
+
+Frame 11: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: CadmusCo_d2:fe:d0 (08:00:27:d2:fe:d0), Dst: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79)
+Internet Protocol Version 4, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.1.13 (10.0.1.13)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 4.008185000    10.0.1.13             10.0.1.11             ICMP     98     Echo (ping) request  id=0x03bf, seq=5/1280, ttl=64 (reply in 13)
+
+Frame 12: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79), Dst: CadmusCo_d2:fe:d0 (08:00:27:d2:fe:d0)
+Internet Protocol Version 4, Src: 10.0.1.13 (10.0.1.13), Dst: 10.0.1.11 (10.0.1.11)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 4.009111000    10.0.1.11             10.0.1.13             ICMP     98     Echo (ping) reply    id=0x03bf, seq=5/1280, ttl=64 (request in 12)
+
+Frame 13: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: CadmusCo_d2:fe:d0 (08:00:27:d2:fe:d0), Dst: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79)
+Internet Protocol Version 4, Src: 10.0.1.11 (10.0.1.11), Dst: 10.0.1.13 (10.0.1.13)
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 5.006803000    CadmusCo_d2:fe:d0     CadmusCo_a4:1a:79     ARP      60     Who has 10.0.1.13?  Tell 10.0.1.11
+
+Frame 14: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: CadmusCo_d2:fe:d0 (08:00:27:d2:fe:d0), Dst: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 5.007725000    CadmusCo_a4:1a:79     CadmusCo_d2:fe:d0     ARP      60     10.0.1.13 is at 08:00:27:a4:1a:79
+
+Frame 15: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: CadmusCo_a4:1a:79 (08:00:27:a4:1a:79), Dst: CadmusCo_d2:fe:d0 (08:00:27:d2:fe:d0)
+Address Resolution Protocol (reply)
